@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeRecognitionApp", "AgeRecognitionApp\AgeRecognitionApp.csproj", "{CA16F059-3AC9-46F2-9CA1-915484E381AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA16F059-3AC9-46F2-9CA1-915484E381AE}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CA16F059-3AC9-46F2-9CA1-915484E381AE}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CA16F059-3AC9-46F2-9CA1-915484E381AE}.Release|iPhone.ActiveCfg = Release|iPhone
+		{CA16F059-3AC9-46F2-9CA1-915484E381AE}.Release|iPhone.Build.0 = Release|iPhone
+		{CA16F059-3AC9-46F2-9CA1-915484E381AE}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{CA16F059-3AC9-46F2-9CA1-915484E381AE}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{CA16F059-3AC9-46F2-9CA1-915484E381AE}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{CA16F059-3AC9-46F2-9CA1-915484E381AE}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal

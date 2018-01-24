@@ -1,0 +1,9 @@
+/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/AgeRecognitionApp.csproj.CoreCompileInputs.cache
+/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/bin/iPhoneSimulator/Debug/AgeRecognitionApp.exe
+/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/bin/iPhoneSimulator/Debug/AgeRecognitionApp.pdb
+/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/AgeRecognitionApp.exe
+/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/AgeRecognitionApp.pdb
+/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/actool/_PartialAppManifest.items
+/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/optimized/
