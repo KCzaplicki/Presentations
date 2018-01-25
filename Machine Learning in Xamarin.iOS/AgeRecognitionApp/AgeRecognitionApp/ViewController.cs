@@ -26,6 +26,13 @@ namespace AgeRecognitionApp
             base.ViewDidLoad();
 
             FaceRectangleRequest = new VNDetectFaceRectanglesRequest(HandleRectangles);
+
+            var bundle = NSBundle.MainBundle;
+            var assetPath = bundle.GetUrlForResource("AgeNet", "mlmodelc");
+            NSError mlErr, vnErr;
+            var mlModel = MLModel.Create(assetPath, out mlErr);
+            var model = VNCoreMLModel.FromMLModel(mlModel, out vnErr);
+            AgeRecognitionRequest = new VNCoreMLRequest(model, HandleClassification);
         }
 
         public override void DidReceiveMemoryWarning()
@@ -84,19 +91,14 @@ namespace AgeRecognitionApp
             var uiImage = info[UIImagePickerController.OriginalImage] as UIImage;
             var ciImage = new CIImage(uiImage);
             ImageView.Image = uiImage;
+            InputImage = ciImage.CreateWithOrientation(uiImage.Orientation.ToCIImageOrientation());
+            RawImage = uiImage;
 
             var handler = new VNImageRequestHandler(ciImage, uiImage.Orientation.ToCGImagePropertyOrientation(), new VNImageOptions());
             DispatchQueue.DefaultGlobalQueue.DispatchAsync(() => {
                 NSError error;
                 handler.Perform(new VNRequest[] { FaceRectangleRequest }, out error);
             });
-
-            var bundle = NSBundle.MainBundle;
-            var assetPath = bundle.GetUrlForResource("AgeNet", "mlmodelc");
-            NSError mlErr, vnErr;
-            var mlModel = MLModel.Create(assetPath, out mlErr);
-            var model = VNCoreMLModel.FromMLModel(mlModel, out vnErr);
-            AgeRecognitionRequest = new VNCoreMLRequest(model, HandleClassification);
         }
 
         partial void ChooseImage(UIButton sender)

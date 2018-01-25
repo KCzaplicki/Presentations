@@ -1,9 +1,9 @@
 # Version: 11.6.1.2 (xcode9.2: 6857dfcc)
 # [first argument, ignore] # --cache
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mtouch/mtouch.exe \
-	/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/mtouch-cache \
+	'/Users/krystian/git/Presentations/Machine Learning in Xamarin.iOS/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/mtouch-cache' \
 	--sim \
-	/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/bin/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/AgeRecognitionApp.app \
+	'/Users/krystian/git/Presentations/Machine Learning in Xamarin.iOS/AgeRecognitionApp/AgeRecognitionApp/bin/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/AgeRecognitionApp.app' \
 	--executable \
 	AgeRecognitionApp \
 	--debug \
@@ -18,7 +18,7 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \
-	/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/mtouch-symbols.list \
+	'/Users/krystian/git/Presentations/Machine Learning in Xamarin.iOS/AgeRecognitionApp/AgeRecognitionApp/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.2/mtouch-symbols.list' \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
@@ -32,4 +32,4 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	--target-framework \
 	'Xamarin.iOS,v1.0' \
-	/Users/krystian/Projects/AgeRecognitionApp/AgeRecognitionApp/bin/iPhoneSimulator/Debug/AgeRecognitionApp.exe \
+	'/Users/krystian/git/Presentations/Machine Learning in Xamarin.iOS/AgeRecognitionApp/AgeRecognitionApp/bin/iPhoneSimulator/Debug/AgeRecognitionApp.exe' \
